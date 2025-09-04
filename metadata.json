@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Copy of ID Card Data Extractor",
+  "description": "An application to upload up to 100 ID cards, select fields to extract in either English or Arabic, and generate a downloadable Excel sheet with the extracted information using Gemini.",
+  "requestFramePermissions": []
+}
