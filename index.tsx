@@ -378,7 +378,7 @@ function App() {
         </div>
 
         <div className="space-y-2">
-            <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">3. Provide API Key</h2>
+            <h2 className="text-xl font-semibold text-gray-700 dark:text-gray-200">3. Provide Key</h2>
             <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                     <KeyIcon />
@@ -387,7 +387,7 @@ function App() {
                     type="password"
                     value={apiKey}
                     onChange={(e) => setApiKey(e.target.value)}
-                    placeholder="Enter your Gemini API Key here"
+                    placeholder="Enter your Key here"
                     className="block w-full pl-10 pr-3 py-2 bg-gray-50 dark:bg-gray-700/50 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-900 dark:text-gray-200"
                     aria-label="Gemini API Key"
                 />
